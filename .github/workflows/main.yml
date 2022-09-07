@@ -68,7 +68,7 @@ jobs:
     steps:
       # Step 1
       - name: install aws cli
-        uses: actions/install-aws-cli-actions@v2
+        uses: unfor19/install-aws-cli-action@v1
         with:
             version: 1
         env: 
