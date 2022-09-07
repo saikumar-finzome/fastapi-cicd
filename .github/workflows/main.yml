@@ -48,8 +48,8 @@ jobs:
         # Step 7
         - name : create the Zipfile archives of the Depencies
           run : |
-            cd venv/lib/python3.7/site-packages
-            zip -r9 ../api.zip 
+                cd ./venv/lib/python3.7/site-packages
+                zip -r9 ../api.zip 
         
         # Step 8
         - name: Add App to Zip file
